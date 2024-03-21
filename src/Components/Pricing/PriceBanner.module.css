@@ -1,0 +1,103 @@
+.deal-banner {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  width: 30%;
+  padding: 6% 4%;
+  text-align: left;
+  background-color: #fbfcff;
+  border: 0.3px solid rgba(2, 4, 69, 0.15);
+  border-radius: 4px;
+}
+
+.deal {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #01b289;
+}
+
+.deal h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.625rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.deal p {
+  max-width: 100%;
+}
+
+.price {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+}
+
+.currency {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+  align-self: flex-start;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.month {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.8rem;
+  font-size: 1.625rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.billed {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.banner-list-item {
+  color: #4c4d5f;
+  font-size: 14px;
+  line-height: 23px;
+  padding-bottom: 18px;
+}
+
+.bnTop {
+  margin-top: auto;
+}
+
+.banner-link {
+  display: inline-block;
+  width: 100%;
+  padding: 22px 25px;
+  border-radius: 4px;
+  color: white;
+  background-color: #00a37e;
+  border: 0;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1130px) {
+  .flex {
+    flex-direction: column;
+  }
+  .deal-banner {
+    max-width: 100%;
+    width: 90%;
+    margin: 1.5rem;
+  }
+  .billed {
+    font-size: 1rem;
+  }
+}

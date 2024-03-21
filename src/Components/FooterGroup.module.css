@@ -1,0 +1,25 @@
+.footer-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.65rem;
+}
+
+.footer-group h3 {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.footer-group a {
+  font-size: 16px;
+  letter-spacing: 0.11px;
+}
+
+.footer-group a:hover {
+  color: #0d0d14;
+}
+
+.footer-group a.active {
+  color: #00b289;
+}

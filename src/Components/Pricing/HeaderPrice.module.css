@@ -1,0 +1,60 @@
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  gap: 3.5rem;
+}
+
+.header-flex h1 {
+  font-weight: 400;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  font-weight: bold;
+}
+
+.offer-img {
+  position: absolute;
+  left: 60%;
+  bottom: 35%;
+}
+
+.yearly {
+  opacity: 0.65;
+}
+
+.toggle-container {
+  display: flex;
+  width: 50px;
+  height: 29px;
+  margin-right: 28px;
+  margin-left: 28px;
+  padding-right: 0;
+  padding-left: 0;
+  align-items: center;
+  border-radius: 200px;
+  background-color: #01b289;
+  cursor: pointer;
+}
+
+.ball {
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 200px;
+  background-color: #fff;
+}
+
+@media (max-width: 475px) {
+  .header-flex {
+    flex-direction: column;
+  }
+}
